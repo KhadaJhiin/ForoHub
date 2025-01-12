@@ -1,10 +1,8 @@
 package com.jdev.ForoHub.controller;
-import java.util.List;
 import java.net.URI;
 
 
-import com.jdev.ForoHub.topico.*;
-import jakarta.persistence.Transient;
+import com.jdev.ForoHub.domain.topico.*;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +22,7 @@ public class TopicoController {
 
     @PostMapping
     public ResponseEntity<DatosRespuestaTopico> registrarTopico(@RequestBody @Valid DatosRegistroTopico datosRegistroTopico,
-                                          UriComponentsBuilder uriComponentsBuilder){
+                                                                UriComponentsBuilder uriComponentsBuilder){
         Topico topico = topicoRepository.save(new Topico(datosRegistroTopico));
         DatosRespuestaTopico datosRespuestaTopico = new DatosRespuestaTopico(topico.getIdUsuario(),topico.getMensaje(),topico.getNombreCurso(),topico.getTitulo());
         URI url = uriComponentsBuilder.path("/topicos/{idUsuario}").buildAndExpand(topico.getIdUsuario()).toUri();

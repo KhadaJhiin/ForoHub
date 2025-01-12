@@ -1,4 +1,4 @@
-package com.jdev.ForoHub.topico;
+package com.jdev.ForoHub.domain.topico;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
