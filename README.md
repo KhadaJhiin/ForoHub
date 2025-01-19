@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/src/images/0.png" alt="Portada del proyecto" width="600">
+  <img src="/src/images/0.png" alt="Portada del proyecto" width="300">
 </p>
 <p align="center">
   <img src="https://img.shields.io/github/stars/KhadaJhiin?style=social">
@@ -8,16 +8,17 @@
 
 <h1 align = "center"> Foro Hub</h1>
 
-Este proyecto desarrollado en Java permite realizar búsquedas de tus libros favoritos y persistirlos en su propia base de datos
-para luego ser consulta de diferentes maneras de acuerdo a lo que necesites. Ya sea por autores, idioma o fecha en la que vivía el autor.
+Este proyecto desarrollado en Java con spring boot nos permite enviar datos en formato json para ser persistidos en una base de datos, de igual manera
+aplicamos spring security para las buenas practicas de seguridad.
 
 ## Características
 
-- Búsqueda y almacenamiento de libros.
-- Visualización o consulta de libros guardados.
-- Visualización o consulta de autores almacenados.
-- Visualización de autores vivos en un respectivo año.
-- Visualización o consulta de libros de acuerdo al idioma.
+- Registro de un tópico.
+- Listado de tópicos.
+- Edición de tópico.
+- Eliminación de tópico.
+- Generación de token con usuario y contraseña.
+- Filtrado de tópico
 
 
 ## Requisitos
@@ -26,38 +27,53 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener lo siguiente insta
 
 - [Java JDK 11 o superior]
 - Conexión a internet para acceder a la API.
+- Base de datos MYSQL
 
 ## Instalación
 
 1. Clona este repositorio:
 
-2. Navega al directorio del proyecto: (src -> ConversorApp)
+2. Navega al directorio del proyecto: (src -> forohub)
 
 3. Compila y ejecuta el proyecto:
 
 ## 🔥Uso
 
-1. Al ejecutar la aplicación, verás un menú que te permite seleccionar la opción que deseas realizar.
+1. Al ejecutar la aplicación, debes dirigirte a insomnia para poder realizar las solicitudes.
 
-   <img src="/images/menu.jpg" alt="Menu de la app" width="300">
+   <img src="/src/images/1.jpg" alt="Menu de la app" width="300">
 
-2. Para la opción (1) deberás de proporcionar el nombre de un libro que desees buscar.
+2. Registrar tópico.
 
-   <img src="/images/opcion1.jpg" alt="Ejemplo usando la opcion 5" width="300">
+   <img src="/src/images/7.jpg" alt="Ejemplo usando la opcion 5" width="300">
 
-3. Al seleccionar la opción (2) se listarán los libros que hallas buscado anteriormente.
+3. Listar tópicos registrados.
 
-   <img src="/images/opcion2.jpg" alt="Ejemplo usando la opcion 7" width="350">
+   <img src="/src/images/5.jpg" alt="Ejemplo usando la opcion 5" width="300">
 
-4. Al seleccionar la opción (3) se listarán los autores de los libros que has ingresado.
+4. Edición de tópicos.
 
-   <img src="/images/opcion3.jpg" alt="Ejemplo usando la opcion 7" width="350">
+   <img src="/src/images/6.jpg" alt="Ejemplo usando la opcion 5" width="300">
+   
+5. Eliminación de tópicos.
+
+   <img src="/src/images/4.jpg" alt="Ejemplo usando la opcion 5" width="300">
+
+6. Generación de token de seguridad.
+
+   <img src="/src/images/3.jpg" alt="Ejemplo usando la opcion 5" width="300">
+
+7. Filtrado de tópico.
+
+   <img src="/src/images/2.jpg" alt="Ejemplo usando la opcion 5" width="300">
+
+
 
 ## ✔️ Tecnologías utilizadas
 * Java <br><br>
 * Spring - Spring_boot <br><br>
-* PostgreSQL <br><br>
-* Gutendex-API <br><br>
+* MYSQL <br><br>
+* Insomnia <br><br>
 
 ## 👨‍💼 Autores
 * Miguel Ortega <br><br>
