@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="/src/imagenes/1.jpg" alt="Portada del proyecto" width="600">
+  <img src="/src/images/0.png" alt="Portada del proyecto" width="600">
 </p>
 <p align="center">
   <img src="https://img.shields.io/github/stars/KhadaJhiin?style=social">
   <img src="https://img.shields.io/badge/Version-1.0-blue" alt="Version 1.0">
 </p>
 
-<h1 align = "center"> Liter Alura</h1>
+<h1 align = "center"> Foro Hub</h1>
 
 Este proyecto desarrollado en Java permite realizar búsquedas de tus libros favoritos y persistirlos en su propia base de datos
 para luego ser consulta de diferentes maneras de acuerdo a lo que necesites. Ya sea por autores, idioma o fecha en la que vivía el autor.
