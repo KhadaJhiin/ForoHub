@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/images/portada.jpeg" alt="Portada del proyecto" width="600">
+  <img src="/src/imagenes/1.jpg" alt="Portada del proyecto" width="600">
 </p>
 <p align="center">
   <img src="https://img.shields.io/github/stars/KhadaJhiin?style=social">
